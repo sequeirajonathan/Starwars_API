@@ -1,0 +1,57 @@
+/* starter */
+body{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+header img{
+  width: 60%;
+}
+
+/* test */
+.container {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  min-width: 25vw;
+  max-width: 25vw;
+  min-height: 65vh;
+  margin: 4vh 3vw;  
+}
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container img {
+  border-bottom: 1px solid black;
+  min-height: 35vh;
+  max-height: 35vh;
+  min-width: 100%;
+}
+
+.container .body {
+  display: flex;
+  flex-direction: row;
+}
+
+.container .names {
+  flex: 1;
+  justify-content: flex-start;
+  padding-left: 2vw;
+}
+
+.container .values {
+  flex: 1;
+  justify-content: flex-end;
+  text-align: right;
+  padding-right: 2vw;
+}
+
